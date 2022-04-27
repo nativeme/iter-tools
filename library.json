@@ -1,0 +1,37 @@
+{
+    "name": "iter-tools",
+    "version": "0.1.0",
+    "description": "Library of simple wrappers on std algos (mostly std::find) just to simplify common bsearching, selecting elements, chcecks ect. without need to specify iterators directly in querry.",
+    "keywords": "find, search, collection",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/nativeme/iter-tools.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Łukasz Kaniak",
+        "email": "lukaszkaniak@gmail.com",
+        "url": "https://github.com/nativeme/",
+        "maintainer": true
+      }
+    ],
+
+    "export" : {
+        "exclude":
+        [
+          ".vdcode",
+          "src/main.cpp",
+          "platformio.ini",
+          "test",
+          "*.ps1"
+        ]
+    },
+
+    "license": "MIT",
+    "homepage": "https://github.com/nativeme/iter-tools.git",
+    "dependencies": {},
+    "frameworks": ["Arduino"],
+    "platforms": "*"
+  }
